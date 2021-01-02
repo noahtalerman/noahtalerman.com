@@ -2,6 +2,13 @@ body {
   font-family: 'Spectral', serif;
   font-style: italic;
   font-weight: 500;
+  font-size: 20px;
+}
+
+h1,
+h2,
+h3 {
+  font-size: 32px;
 }
 
 h1,
@@ -12,4 +19,14 @@ a {
   font-family: 'Cera CY', sans-serif;
   font-style: normal;
   font-weight: 300;
+}
+
+h1:after {
+  content: '';
+  display: inline-block;
+  height: 2px;
+  width: 24px;
+  background: black;
+  vertical-align: 20%;
+  margin-left: 12px;
 }
