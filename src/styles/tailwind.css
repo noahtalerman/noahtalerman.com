@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: 'Cera CY';
+    src: url('../assets/fonts/Cera-CY/cera-cy.ttf') format('truetype'),
+         url('../assets/fonts/Cera-CY/cera-cy.svg') format('svg');
+    font-weight: 300;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'Spectral';
+    src: url('../assets/fonts/Spectral/spectral-medium-italic.ttf') format('truetype'),
+         url('../assets/fonts/Spectral/spectral-medium-italic.svg') format('svg');
+    font-weight: 500;
+    font-style: italic;
+  }
+}
