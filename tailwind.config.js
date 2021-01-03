@@ -22,7 +22,7 @@ module.exports = {
      xl: '80px',
     },
     screend: {
-    'sm': '640px',
+      'sm': '640px',
       // => @media (min-width: 640px) { ... }
 
       'md': '768px',
