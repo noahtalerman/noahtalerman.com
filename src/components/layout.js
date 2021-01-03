@@ -5,7 +5,7 @@ import "../index.css";
 const Layout = ({ children }) => {
 
   return (
-    <div className='grid grid-cols-9 gap-x-1'>
+    <div className='grid grid-cols-9 gap-x-1 mt-xl'>
       {children}
     </div>
   )
