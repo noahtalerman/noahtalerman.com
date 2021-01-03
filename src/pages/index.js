@@ -21,12 +21,12 @@ const IndexPage = () => {
 
   return (
     <Layout>
-      <SEO title="Home" />
+      <SEO title="Noah Talerman's Site" />
       <div className="col-start-3 col-span-5">
         <h1>NOAH TALERMAN'S SITE</h1>
         <h2>A SPACE TO SHARE MY FAVORITE WORK AND MEDIA</h2>
-        <div className="flex justify-between align-center">
-          <div className="mt-xl">
+        <div className="flex justify-between align-center mt-xl">
+          <div>
             <p className="mt-lg">Welcome to my site</p>
             <p className="mt-md">During the week I’m working on product at fleetdm.com and during the other days I’m running on Mercer Island, playing Rocket League, and watching Arsenal FC dissapoint.</p>
           </div>
@@ -36,15 +36,20 @@ const IndexPage = () => {
         </div>
         <h3 className="mt-xl">WORK I'M PROUD OF</h3>
         <div className="flex justify-between mt-lg">
-          <a href="https://github.com/fleetdm/fleet" target="_blank" rel="noopener noreferrer">Fleet Device Management</a>
-          <span className="font-display not-italic hidden lg:inline">github.com/fleetdm/fleet</span>
+          <span className="font-display not-italic">Fleet Device Management</span>
+          <a href="https://github.com/fleetdm/fleet" target="_blank" rel="noopener noreferrer" className="">View on GitHub</a>
         </div>
         <p className="mt-md">My proud gig. I can be doing a lot of things related to “product” on any given day. These things are wireframes, communicating wth users, bug fixes, front end code, community support, public facing documentation, roadmap management</p>
         <div className="flex justify-between mt-lg">
-          <a href="https://github.com/snordale/music-app" target="_blank" rel="noopener noreferrer">The Ivy Platform</a>
-          <span className="font-display not-italic hidden lg:inline">github.com/snordale/music-app</span>
+          <span className="font-display not-italic">The Ivy Platform</span>
+          <a href="https://github.com/snordale/music-app" target="_blank" rel="noopener noreferrer" className="">View on GitHub</a>
         </div>
         <p className="mt-md">Dope team effort with Sam Nordale and Eric Kim. Working to achieve our music sharing vision. Using cool tech like Django, Spotify’s API, and React Native....</p>
+        <div className="flex justify-between mt-lg">
+          <span className="font-display not-italic">Computer Adoption and Income Inequality</span>
+          <a href="https://columbiaeconreview.com/post/5f45c9c8be5493000729ed15" target="_blank" rel="noopener noreferrer" className="">View article</a>
+        </div>
+        <p className="mt-md">Economics article that examines the relationship between income inequality and computer technology adoption.</p>
         {/* <h3 className="mt-xl">MY LAST 3 LISTENS ON SPOTIFY</h3>
         <table className="table-auto w-full text-left mt-lg">
           <thead className="font-display not-italic">
