@@ -22,7 +22,8 @@ a {
 }
 
 a {
-  background-image: linear-gradient(#000, #000);
+  color: #f45d48;
+  background-image: linear-gradient(#f45d48, #f45d48);
   background-size: 0% 0.1em;
   background-position-y: 100%;
   background-position-x: 0%;
@@ -42,7 +43,13 @@ h1:after {
   display: inline-block;
   height: 2px;
   width: 24px;
-  background: black;
+  background: #1a1a1b;
   vertical-align: 20%;
   margin-left: 12px;
+}
+
+@media (prefers-color-scheme: dark) {
+  h1:after {
+    background: #ffffff;
+  }
 }

@@ -5,8 +5,10 @@ import "../index.css";
 const Layout = ({ children }) => {
 
   return (
-    <div className='grid grid-cols-9 gap-x-1 mt-xl'>
-      {children}
+    <div className="flex justify-center bg-white text-dark-grey dark:bg-dark-grey dark:text-white">
+      <div className='min-h-screen max-w-screen-xl grid grid-cols-9 gap-x-1 py-xl'>
+        {children}
+      </div>
     </div>
   )
 };

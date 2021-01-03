@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `Noah Talerman`,
+    title: `A space to share my favorite work and media`,
     description: `22 year old software geek, Arsenal fan, and Rocket League player.`,
     author: `Noah Talerman`,
   },
@@ -15,13 +15,9 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `gatsby-starter-default`,
-        short_name: `starter`,
         start_url: `/`,
-        background_color: `#663399`,
-        theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `src/assets/images/gatsby-icon.png`, // This path is relative to the root of the site.
+        icon: `src/assets/images/favicon.png`, // This path is relative to the root of the site.
       },
     },
     `gatsby-plugin-react-helmet`,

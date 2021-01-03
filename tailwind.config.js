@@ -1,9 +1,12 @@
 module.exports = {
   purge: ["./src/**/*.js", "./src/**/*.jsx", "./src/**/*.ts", "./src/**/*.tsx"],
-  darkMode: false, // or 'media' or 'class'
+  darkMode: 'media',
   theme: {
     colors: {
-      'ui-light-grey': '#E0E0E0',
+      'ui-light-grey': '#e0e0e0',
+      'red': '#f45d48',
+      'dark-grey': '#1a1a1b',
+      'white': '#ffffff',
     },
     fontSize: {
       sm: ['12px', '18px'],
