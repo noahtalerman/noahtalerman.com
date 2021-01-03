@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "gatsby";
 
 import Layout from "../components/layout";
 import SEO from "../components/seo";
@@ -22,7 +21,7 @@ const IndexPage = () => {
   return (
     <Layout>
       <SEO title="Noah Talerman's Site" />
-      <div className="col-start-3 col-span-5">
+      <div className="col-start-2 col-span-7 md:col-start-3 md:col-span-5">
         <h1>NOAH TALERMAN'S SITE</h1>
         <h2>A SPACE TO SHARE MY FAVORITE WORK AND MEDIA</h2>
         <div className="flex justify-between align-center mt-xl">
@@ -35,17 +34,17 @@ const IndexPage = () => {
           </div> 
         </div>
         <h3 className="mt-xl">WORK I'M PROUD OF</h3>
-        <div className="flex justify-between mt-lg">
+        <div className="flex justify-between mt-lg flex-col lg:flex-row">
           <span className="font-display not-italic">Fleet Device Management</span>
           <a href="https://github.com/fleetdm/fleet" target="_blank" rel="noopener noreferrer" className="">View on GitHub</a>
         </div>
         <p className="mt-md">My proud gig. I can be doing a lot of things related to “product” on any given day. These things are wireframes, communicating wth users, bug fixes, front end code, community support, public facing documentation, roadmap management</p>
-        <div className="flex justify-between mt-lg">
+        <div className="flex justify-between mt-lg flex-col lg:flex-row">
           <span className="font-display not-italic">The Ivy Platform</span>
           <a href="https://github.com/snordale/music-app" target="_blank" rel="noopener noreferrer" className="">View on GitHub</a>
         </div>
         <p className="mt-md">Dope team effort with Sam Nordale and Eric Kim. Working to achieve our music sharing vision. Using cool tech like Django, Spotify’s API, and React Native....</p>
-        <div className="flex justify-between mt-lg">
+        <div className="flex justify-between mt-lg flex-col lg:flex-row">
           <span className="font-display not-italic">Computer Adoption and Income Inequality</span>
           <a href="https://columbiaeconreview.com/post/5f45c9c8be5493000729ed15" target="_blank" rel="noopener noreferrer" className="">View article</a>
         </div>
