@@ -30,7 +30,7 @@ const IndexPage = () => {
             <p className="mt-md text-light-text-grey dark:text-dark-text-grey">During the week I’m working on product at fleetdm.com. Other days I’m running on Mercer Island, playing Rocket League, and watching Arsenal FC.</p>
           </div>
           <div className="lg:flex lg:justify-end hidden">
-            <img src={meImg} style={{width: "200px", height: "200px", borderRadius: "4px"}}className="object-cover h-auto ml-xl"></img>
+            <img src={meImg} style={{maxWidth: "200px", height: "200px", borderRadius: "4px"}}className="object-cover h-auto ml-xl"></img>
           </div> 
         </div>
         <h3 className="mt-xl">Work I'm proud of</h3>
