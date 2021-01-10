@@ -6,16 +6,19 @@ module.exports = {
       'ui-light-grey': '#e0e0e0',
       'red': '#f45d48',
       'dark-grey': '#1a1a1b',
+      'dark-text-grey': '#b3b3b3',
+      'light-text-grey': '#7c7c7c',
       'white': '#ffffff',
     },
     fontSize: {
       sm: ['12px', '18px'],
+      md: ['18px', '27px'],
       base: ['20px', '30px'],
       lg: ['24px', '32px'],
       xl: ['32px', '48px'],
     },
     fontFamily: {
-     'display': ['Cera CY', 'sans-serif'],
+     'display': ['Merriweather', 'serif'],
      'body': ['Spectral', 'serif'],
     },
     spacing: {
