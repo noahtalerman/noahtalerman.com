@@ -1,8 +1,8 @@
 body {
-  font-family: 'Spectral', serif;
-  font-style: italic;
+  font-family: 'Poppins', sans-serif;
   font-weight: 300;
-  font-size: 20px;
+  font-size: 16px;
+  line-height: 1.7;
 }
 
 h1,
@@ -16,9 +16,9 @@ h2,
 h3,
 h4,
 a {
-  font-family: 'Cera CY', sans-serif;
+  font-family: 'Merriweather', serif;
   font-style: normal;
-  font-weight: 300;
+  font-weight: 400;
 }
 
 a {
