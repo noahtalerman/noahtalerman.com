@@ -21,16 +21,6 @@ a:active {
   text-decoration: underline;
 }
 
-h1:after {
-  content: "";
-  display: inline-block;
-  height: 2px;
-  width: 24px;
-  background: #1a1a1b;
-  vertical-align: 20%;
-  margin-left: 12px;
-}
-
 @media (prefers-color-scheme: dark) {
   h1:after {
     background: #ffffff;
