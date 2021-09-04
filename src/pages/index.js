@@ -2,69 +2,104 @@ import React from "react";
 
 import Layout from "../components/layout";
 import SEO from "../components/seo";
-import { useStaticQuery, graphql } from "gatsby";
 
 import meImg from "../assets/images/me.jpg";
+import me2Img from "../assets/images/me-2.jpg";
+import me3Img from "../assets/images/me-3.jpg";
+import me4Img from "../assets/images/me-4.jpg";
 
 const IndexPage = () => {
 
-  const data = useStaticQuery(graphql`
-    query SiteTitleQuery {
-      site {
-        siteMetadata {
-          title
-        }
-      }
-    }
-  `);
-
   return (
     <Layout>
-      <SEO title="Noah Talerman's Site" />
+      <SEO title="Noah Talerman's internet profile" />
       <div className="col-start-2 col-span-7 md:col-start-3 md:col-span-5">
-        <h1>Noah Talerman's site</h1>
-        <h2>A space to share my favorite work and media</h2>
-        <div className="flex justify-between items-center mt-xl">
+        <div className="flex flex-col">
+          <h1 className="mr-md mb-md">Noah Talerman's internet profile</h1>
           <div>
-            <p className="text-light-text-grey dark:text-dark-text-grey">My day to day,</p>
-            <p className="mt-md text-light-text-grey dark:text-dark-text-grey">During the week I’m working on product at fleetdm.com. Other days I’m running on Mercer Island, playing Rocket League, and watching Arsenal FC.</p>
+            <div className="flex">
+              <img src={meImg} style={{maxWidth: "200px", height: "200px", borderRadius: "4px" }} className="object-cover h-auto m-sm" />
+              <img src={me2Img} style={{maxWidth: "200px", height: "200px", borderRadius: "4px" }}className="object-cover h-auto m-sm" />
+            </div>
+            <div className="flex">
+              <img src={me3Img} style={{maxWidth: "200px", height: "200px", borderRadius: "4px" }}className="object-cover h-auto m-sm" />
+              <img src={me4Img} style={{maxWidth: "200px", height: "200px", borderRadius: "4px" }}className="object-cover h-auto m-sm" />
+            </div>
           </div>
-          <div className="lg:flex lg:justify-end hidden">
-            <img src={meImg} style={{maxWidth: "200px", height: "200px", borderRadius: "4px"}}className="object-cover h-auto ml-xl"></img>
-          </div> 
         </div>
-        <h3 className="mt-xl">Work I'm proud of</h3>
+        <h3 className="mt-lg">My day to day</h3>
+        <p className="mt-md text-light-text-grey dark:text-dark-text-grey">
+          <span>During the week I’m working on product at</span>
+          &nbsp;
+          <a href="https://fleetdm.com" target="_blank" rel="noreferrer">
+            fleetdm.com
+          </a>
+          <span>. Other days I’m running in </span>
+          <a href="https://www.google.com/maps/place/Prospect+Park/@40.6667184,-73.9730757,14z/data=!4m5!3m4!1s0x89c25b1087680443:0x178bf7c600df7a98!8m2!3d40.6602037!4d-73.9689558" target="_blank" rel="noreferrer"
+          >
+            Prospect Park, NY
+          </a>
+          , and watching
+          &nbsp;
+          <a href="https://twitter.com/Arsenal" target="_blank" rel="noreferrer" className="">
+            Arsenal Football Club
+          </a>
+          .
+        </p>
+        <h3 className="mt-lg">Work</h3>
         <div className="flex justify-between mt-lg flex-col lg:flex-row">
-          <span className="font-display text-md">Fleet Device Management</span>
-          <a href="https://github.com/fleetdm/fleet" target="_blank" rel="noopener noreferrer" className="text-md">View on GitHub</a>
+          <a href="https://github.com/fleetdm/fleet/graphs/contributors" target="_blank" rel="noreferrer">
+            FleetDM
+          </a>
         </div>
-        <p className="mt-md text-light-text-grey dark:text-dark-text-grey">My proud gig. I can be doing a lot of things related to “product” on any given day.</p>
+        <p className="mt-md text-light-text-grey dark:text-dark-text-grey">Current job. Responsibilities are and<span className="line-through"> were</span> the following:</p>
+        <div className="mt-md">
+          <span className="text-light-text-grey dark:text-dark-text-grey">Public facing documentation,</span>
+          <span className="text-light-text-grey dark:text-dark-text-grey"> Product wireframes, </span>
+          <span className="text-light-text-grey dark:text-dark-text-grey">Bug fixes,</span>
+          <span className="line-through text-light-text-grey dark:text-dark-text-grey"> Coding work on product features and www,</span>
+          <span className="text-light-text-grey dark:text-dark-text-grey"> Roadmap management ,</span>
+          <span className="text-light-text-grey dark:text-dark-text-grey"> Communication wth users,</span>
+          <span className="text-light-text-grey dark:text-dark-text-grey"> Analytics for key flows,</span>
+          <span className="text-light-text-grey dark:text-dark-text-grey"> Browser compatability,</span>
+          <span className="line-through text-light-text-grey dark:text-dark-text-grey"> Consistent blog posts,</span>
+          <span className="line-through text-light-text-grey dark:text-dark-text-grey"> Consistent social media,</span>
+          <span className="line-through text-light-text-grey dark:text-dark-text-grey"> Issue queue, </span>
+          <span className="line-through text-light-text-grey dark:text-dark-text-grey"> Pull request queue,</span>
+          <span className="line-through text-light-text-grey dark:text-dark-text-grey"> Contributor advocate,</span>
+          <span className="text-light-text-grey dark:text-dark-text-grey"> QA,</span>
+          <span className="text-light-text-grey dark:text-dark-text-grey"> Communication about outages and fixes,</span>
+          <span className="text-light-text-grey dark:text-dark-text-grey"> Release notes, </span>
+          <span className="line-through text-light-text-grey dark:text-dark-text-grey"> Community support,</span>
+          <span className="text-light-text-grey dark:text-dark-text-grey"> Tutorial writing,</span>
+          <span className="text-light-text-grey dark:text-dark-text-grey"> Open source advocacy</span>
+        </div>
         <div className="flex justify-between mt-lg flex-col lg:flex-row">
-          <span className="font-display text-md">The Ivy Platform</span>
-          <a href="https://github.com/snordale/music-app" target="_blank" rel="noopener noreferrer" className="text-md">View on GitHub</a>
+          <a href="https://theivyplatform.com" target="_blank" rel="noreferrer">
+            The Ivy Platform
+          </a>
         </div>
-        <p className="mt-md text-light-text-grey dark:text-dark-text-grey">Dope team effort with Sam Nordale and Eric Kim. Working to achieve our music sharing vision.</p>
-        <div className="flex justify-between mt-lg flex-col lg:flex-row">
-          <span className="font-display text-md">Computer Adoption and Income Inequality</span>
-          <a href="https://columbiaeconreview.com/post/5f45c9c8be5493000729ed15" target="_blank" rel="noopener noreferrer" className="text-md">Go to article</a>
+        <p className="mt-md text-light-text-grey dark:text-dark-text-grey"> Built the MVP. Responsibilities were the following:</p>
+        <div className="mt-md">
+          <span className="text-light-text-grey dark:text-dark-text-grey">UI design,</span>
+          <span className="text-light-text-grey dark:text-dark-text-grey"> Coding work on frontend,</span>
+          <span className="text-light-text-grey dark:text-dark-text-grey"> Deployment work,</span>
+          <span className="text-light-text-grey dark:text-dark-text-grey"> Script writing for development</span>
         </div>
-        <p className="mt-md text-light-text-grey dark:text-dark-text-grey">Economics article that examines the relationship between income inequality and computer technology adoption.</p>
-        {/* <h3 className="mt-xl">MY LAST 3 LISTENS ON SPOTIFY</h3>
-        <table className="table-auto w-full text-left mt-lg">
-          <thead className="font-display not-italic">
-            <tr>
-              <th className="w-1/2">SONG</th>
-              <th>ARTIST</th>
-              <th>ALBUM</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr></tr>
-            <tr></tr>
-            <tr></tr>
-          </tbody>
-        </table>
-        <h3 className="mt-xl">PICTURES I TOOK</h3> */}
+        <div className="mt-md">
+          <span className="text-light-text-grey dark:text-dark-text-grey">Shoutout</span>
+          &nbsp;
+          <a href="https://www.linkedin.com/in/samnordale/" target="_blank" rel="noreferrer">
+            Sam Nordale - CEO of everything
+          </a>
+          &nbsp;
+          <span className="text-light-text-grey dark:text-dark-text-grey">and</span> &nbsp;
+          <a href="https://www.linkedin.com/in/eric-kim-product-designer/" target="_blank" rel="noreferrer">
+            Eric Kim - Product designer
+          </a>
+          &nbsp;
+          <span className="text-light-text-grey dark:text-dark-text-grey">for working to achieve the music sharing vision.</span>
+        </div>
       </div>
     </Layout>
   );

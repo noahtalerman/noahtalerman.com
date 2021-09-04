@@ -18,7 +18,6 @@ module.exports = {
       xl: ['32px', '48px'],
     },
     fontFamily: {
-     'display': ['Merriweather', 'serif'],
      'body': ['Spectral', 'serif'],
     },
     spacing: {
