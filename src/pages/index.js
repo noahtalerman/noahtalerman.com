@@ -4,9 +4,9 @@ import Layout from "../components/layout";
 import SEO from "../components/seo";
 
 import meImg from "../assets/images/me.jpg";
-import me2Img from "../assets/images/me-2.jpg";
-import me3Img from "../assets/images/me-3.jpg";
-import me4Img from "../assets/images/me-4.jpg";
+import me2Img from "../assets/images/me2.jpg";
+import me3Img from "../assets/images/me3.jpg";
+import me4Img from "../assets/images/me4.jpg";
 
 const IndexPage = () => {
 
