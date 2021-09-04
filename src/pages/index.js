@@ -17,11 +17,11 @@ const IndexPage = () => {
         <div className="flex flex-col">
           <h1 className="mr-md mb-md">Noah Talerman's internet profile</h1>
           <div>
-            <div className="flex">
+            <div className="flex flex-wrap">
               <img src={meImg} style={{maxWidth: "200px", height: "200px", borderRadius: "4px" }} className="object-cover h-auto m-sm" />
               <img src={me2Img} style={{maxWidth: "200px", height: "200px", borderRadius: "4px" }}className="object-cover h-auto m-sm" />
             </div>
-            <div className="flex">
+            <div className="flex flex-wrap">
               <img src={me3Img} style={{maxWidth: "200px", height: "200px", borderRadius: "4px" }}className="object-cover h-auto m-sm" />
               <img src={me4Img} style={{maxWidth: "200px", height: "200px", borderRadius: "4px" }}className="object-cover h-auto m-sm" />
             </div>
