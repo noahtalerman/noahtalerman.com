@@ -24,7 +24,7 @@ const IndexPage = () => {
         <div className="flex flex-col">
           <h1 className="mr-md mb-md">Noah Talerman's internet profile</h1>
           <div>
-            <div className="flex">
+            <div className="flex flex-col sm:flex-row">
               <div>
                 <img 
                   src={me1} 
@@ -78,7 +78,7 @@ const IndexPage = () => {
                 />
               </div>
             </div>
-            <div className="flex">
+            <div className="flex flex-col sm:flex-row">
             <div>
                 <img 
                   src={me3} 
