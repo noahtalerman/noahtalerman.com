@@ -3,10 +3,17 @@ import React from "react";
 import Layout from "../components/layout";
 import SEO from "../components/seo";
 
-import meImg from "../assets/images/me.jpg";
-import me2Img from "../assets/images/me-2.jpg";
-import me3Img from "../assets/images/me-3.jpg";
-import me4Img from "../assets/images/me-4.jpg";
+import me1 from "../assets/images/me-1.jpg";
+import me1Pixel from "../assets/images/me-1-pixel.jpg";
+
+import me2 from "../assets/images/me-2.jpg";
+import me2Pixel from "../assets/images/me-2-pixel.jpg";
+
+import me3 from "../assets/images/me-3.jpg";
+import me3Pixel from "../assets/images/me-3-pixel.jpg";
+
+import me4 from "../assets/images/me-4.jpg";
+import me4Pixel from "../assets/images/me-4-pixel.jpg";
 
 const IndexPage = () => {
 
@@ -18,12 +25,112 @@ const IndexPage = () => {
           <h1 className="mr-md mb-md">Noah Talerman's internet profile</h1>
           <div>
             <div className="flex">
-              <img src={meImg} style={{maxWidth: "200px", height: "200px", borderRadius: "4px" }} className="object-cover h-auto m-sm" />
-              <img src={me2Img} style={{maxWidth: "200px", height: "200px", borderRadius: "4px" }}className="object-cover h-auto m-sm" />
+              <div>
+                <img 
+                  src={me1} 
+                  style={
+                    { 
+                      maxWidth: "200px", 
+                      height: "200px", 
+                      borderRadius: "4px", 
+                      position: "absolute",
+                    }
+                  } 
+                  className="z-10 object-cover h-auto m-sm transition duration-0 hover:opacity-0" 
+                />
+                <img 
+                  src={me1Pixel} 
+                  style={
+                    { 
+                      maxWidth: "200px", 
+                      height: "200px", 
+                      borderRadius: "4px",
+                      imageRendering: "pixelated", 
+                    }
+                  } 
+                  className="object-cover h-auto m-sm filter grayscale" 
+                />
+              </div>
+              <div>
+                <img 
+                  src={me2} 
+                  style={
+                    { 
+                      minWidth: "200px", 
+                      height: "200px", 
+                      borderRadius: "4px", 
+                      position: "absolute",
+                    }
+                  } 
+                  className="z-10 object-cover h-auto m-sm transition duration-0 hover:opacity-0" 
+                />
+                <img 
+                  src={me2Pixel} 
+                  style={
+                    { 
+                      minWidth: "200px", 
+                      height: "200px", 
+                      borderRadius: "4px",
+                      imageRendering: "pixelated", 
+                    }
+                  } 
+                  className="object-cover h-auto m-sm filter grayscale" 
+                />
+              </div>
             </div>
             <div className="flex">
-              <img src={me3Img} style={{maxWidth: "200px", height: "200px", borderRadius: "4px" }}className="object-cover h-auto m-sm" />
-              <img src={me4Img} style={{maxWidth: "200px", height: "200px", borderRadius: "4px" }}className="object-cover h-auto m-sm" />
+            <div>
+                <img 
+                  src={me3} 
+                  style={
+                    { 
+                      maxWidth: "200px", 
+                      height: "200px", 
+                      borderRadius: "4px", 
+                      position: "absolute",
+                    }
+                  } 
+                  className="z-10 object-cover h-auto m-sm transition duration-0 hover:opacity-0" 
+                />
+                <img 
+                  src={me3Pixel} 
+                  style={
+                    { 
+                      maxWidth: "200px", 
+                      height: "200px", 
+                      borderRadius: "4px",
+                      imageRendering: "pixelated", 
+                    }
+                  } 
+                  className="object-cover h-auto m-sm filter grayscale" 
+                />
+              </div>
+              <div>
+                <img 
+                  src={me4} 
+                  style={
+                    { 
+                      minWidth: "200px", 
+                      height: "200px", 
+                      borderRadius: "4px", 
+                      position: "absolute",
+                    }
+                  } 
+                  className="z-10 object-cover h-auto m-sm transition duration-0 hover:opacity-0" 
+                />
+                <img 
+                  src={me4Pixel} 
+                  style={
+                    { 
+                      minWidth: "200px", 
+                      height: "200px", 
+                      borderRadius: "4px",
+                      imageRendering: "pixelated", 
+                    }
+                  } 
+                  className="object-cover h-auto m-sm filter grayscale" 
+                />
+              </div>
             </div>
           </div>
         </div>
@@ -56,9 +163,9 @@ const IndexPage = () => {
         <div className="mt-md">
           <span className="text-light-text-grey dark:text-dark-text-grey">Public facing documentation,</span>
           <span className="text-light-text-grey dark:text-dark-text-grey"> Product wireframes, </span>
-          <span className="text-light-text-grey dark:text-dark-text-grey">Bug fixes,</span>
+          <span className="line-through text-light-text-grey dark:text-dark-text-grey">Bug fixes,</span>
           <span className="line-through text-light-text-grey dark:text-dark-text-grey"> Coding work on product features and www,</span>
-          <span className="text-light-text-grey dark:text-dark-text-grey"> Roadmap management ,</span>
+          <span className="text-light-text-grey dark:text-dark-text-grey"> Roadmap management,</span>
           <span className="text-light-text-grey dark:text-dark-text-grey"> Communication wth users,</span>
           <span className="text-light-text-grey dark:text-dark-text-grey"> Analytics for key flows,</span>
           <span className="text-light-text-grey dark:text-dark-text-grey"> Browser compatability,</span>
@@ -67,7 +174,7 @@ const IndexPage = () => {
           <span className="line-through text-light-text-grey dark:text-dark-text-grey"> Issue queue, </span>
           <span className="line-through text-light-text-grey dark:text-dark-text-grey"> Pull request queue,</span>
           <span className="line-through text-light-text-grey dark:text-dark-text-grey"> Contributor advocate,</span>
-          <span className="text-light-text-grey dark:text-dark-text-grey"> QA,</span>
+          <span className="line-through text-light-text-grey dark:text-dark-text-grey"> QA,</span>
           <span className="text-light-text-grey dark:text-dark-text-grey"> Communication about outages and fixes,</span>
           <span className="text-light-text-grey dark:text-dark-text-grey"> Release notes, </span>
           <span className="line-through text-light-text-grey dark:text-dark-text-grey"> Community support,</span>
