@@ -144,7 +144,7 @@ const IndexPage = () => {
         <div className="mt-md">
           <div className="mt-sm">
             <a className="block" href="https://github.com/fleetdm/fleet/releases" target="_blank" rel="noreferrer">
-              <span className="peer text-light-text-grey dark:text-dark-text-grey">30 version of software released</span>
+              <span className="peer text-light-text-grey dark:text-dark-text-grey">30 versions of software released</span>
               <span className="ml-sm sm:opacity-0 peer-hover:opacity-100">See releases on GitHub</span>
             </a>
             <a className="block" href="https://osquery.slack.com/join/shared_invite/zt-h29zm0gk-s2DBtGUTW4CFel0f0IjTEw#/shared-invite/email" target="_blank" rel="noreferrer">
