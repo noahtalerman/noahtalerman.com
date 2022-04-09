@@ -136,20 +136,17 @@ const IndexPage = () => {
         </div>
         <h3 className="mt-lg">Work</h3>
         <div className="flex justify-between mt-md flex-col lg:flex-row">
-          <a href="https://fleetdm.com" target="_blank" rel="noreferrer">
-            Fleet Device Management
+          <a className="block" href="https://fleetdm.com" target="_blank" rel="noreferrer">
+              <span className="peer">Fleet Device Management</span>
+              <span className="ml-sm sm:opacity-0 peer-hover:opacity-100 text-light-text-grey dark:text-dark-text-grey">See website</span>
           </a>
         </div>
         <p className="mt-md">Team accomplishments</p>
         <div className="mt-md">
           <div className="mt-sm">
-            <a className="block" href="https://github.com/fleetdm/fleet/releases" target="_blank" rel="noreferrer">
-              <span className="peer text-light-text-grey dark:text-dark-text-grey">30 versions of software released</span>
-              <span className="ml-sm sm:opacity-0 peer-hover:opacity-100">See releases on GitHub</span>
-            </a>
             <a className="block" href="https://osquery.slack.com/join/shared_invite/zt-h29zm0gk-s2DBtGUTW4CFel0f0IjTEw#/shared-invite/email" target="_blank" rel="noreferrer">
-              <span className="peer text-light-text-grey dark:text-dark-text-grey">500 community members welcomed</span>
-              <span className="ml-sm sm:opacity-0 peer-hover:opacity-100">See community on Slack</span>
+              <span className="peer">600+ community members welcomed</span>
+              <span className="ml-sm sm:opacity-0 peer-hover:opacity-100 text-light-text-grey dark:text-dark-text-grey">See community on Slack</span>
             </a>
           </div>
         </div>
@@ -157,20 +154,16 @@ const IndexPage = () => {
         <div className="mt-md">
           <div className="mt-sm">
             <a className="block" href="https://www.figma.com/file/qpdty1e2n22uZntKUZKEJl/%E2%9C%85-Fleet-EE-(current%2C-dev-ready)?node-id=494%3A0" target="_blank" rel="noreferrer">
-              <span className="peer text-light-text-grey dark:text-dark-text-grey">Product wireframes</span>
-              <span className="ml-sm sm:opacity-0 peer-hover:opacity-100">See product wireframes on Figma</span>
-            </a>
-            <a className="block" href="https://fleetdm.com/docs" target="_blank" rel="noreferrer">
-              <span className="peer text-light-text-grey dark:text-dark-text-grey">Public facing documentation</span>
-              <span className="ml-sm sm:opacity-0 peer-hover:opacity-100">See docs on fleetdm.com</span>
+              <span className="peer">Product wireframes</span>
+              <span className="ml-sm sm:opacity-0 peer-hover:opacity-100 text-light-text-grey dark:text-dark-text-grey">See wireframes on Figma</span>
             </a>
             <a className="block" href="https://github.com/orgs/fleetdm/projects/8" target="_blank" rel="noreferrer">
-              <span className="peer text-light-text-grey dark:text-dark-text-grey">Roadmap managment</span>
-              <span className="ml-sm sm:opacity-0 peer-hover:opacity-100">See roadmap on GitHub</span>
+              <span className="peer">Roadmap managment</span>
+              <span className="ml-sm sm:opacity-0 peer-hover:opacity-100 text-light-text-grey dark:text-dark-text-grey">See roadmap on GitHub</span>
             </a>
             <a className="block" href="https://github.com/fleetdm/fleet/releases" target="_blank" rel="noreferrer">
-              <span className="peer text-light-text-grey dark:text-dark-text-grey">Release notes</span>
-              <span className="ml-sm sm:opacity-0 peer-hover:opacity-100">See release notes on GitHub</span>
+              <span className="peer">Release notes</span>
+              <span className="ml-sm sm:opacity-0 text-light-text-grey dark:text-dark-text-grey peer-hover:opacity-100">See releases on GitHub</span>
             </a>
           </div>
         </div>
