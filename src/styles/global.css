@@ -10,10 +10,6 @@ h3 {
   font-size: 32px;
 }
 
-a {
-  color: #f45d48;
-}
-
 @media (prefers-color-scheme: dark) {
   h1:after {
     background: #ffffff;
