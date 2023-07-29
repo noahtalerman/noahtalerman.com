@@ -1,9 +1,9 @@
 module.exports = {
   siteMetadata: {
-    title: `A place to share my favorites`,
-    description: `25 year old software newbie and behavioral economist wannabe.`,
+    title: `Noah Talerman's site`,
+    description: `25 year old Product Manager based in Brooklyn.`,
     me: {
-      fullName: `Noah Talerm`
+      fullName: `Noah Talerman`
     },
   },
   plugins: [
