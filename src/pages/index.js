@@ -19,10 +19,10 @@ const IndexPage = () => {
 
   return (
     <Layout>
-      <SEO />
+      <SEO title="Noah Talerman"/>
       <div className="col-start-2 col-span-7 md:col-start-3 md:col-span-5">
         <div className="flex flex-col">
-          <h1 className="mb-md">Noah Talerman</h1>
+          <h1 className="mb-md">Noah Talerman's site</h1>
           <div>
             <div className="flex flex-col sm:flex-row">
               <div>
