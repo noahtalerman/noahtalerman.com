@@ -149,7 +149,7 @@ const IndexPage = () => {
                 <span className="pl-sm sm:opacity-0 hover:opacity-100 peer-hover:opacity-100 text-light-text-grey dark:text-dark-text-grey">See testimonials on website</span>
             </a>
             <a className="block" href="https://osquery.slack.com/join/shared_invite/zt-h29zm0gk-s2DBtGUTW4CFel0f0IjTEw#/shared-invite/email" target="_blank" rel="noreferrer">
-              <span className="peer text-red">900+ open-source community members</span>
+              <span className="peer text-red">1,100+ open-source community members</span>
               <span className="pl-sm sm:opacity-0 hover:opacity-100 peer-hover:opacity-100 text-light-text-grey dark:text-dark-text-grey">See community on Slack</span>
             </a>
           </div>
@@ -161,8 +161,8 @@ const IndexPage = () => {
               <span className="peer text-red">Product design</span>
               <span className="pl-sm sm:opacity-0 hover:opacity-100 peer-hover:opacity-100 hover:opacity-100 text-light-text-grey dark:text-dark-text-grey">See designs on Figma</span>
             </a>
-            <a className="block" href="https://github.com/fleetdm/fleet/issues?q=is%3Aopen+is%3Aissue+label%3A%23g-mdm+label%3A%3Aproduct+label%3Astory" target="_blank" rel="noreferrer">
-              <span className="peer text-red">Roadmap managment</span>
+            <a className="block" href="https://github.com/fleetdm/fleet/issues?q=is%3Aopen+is%3Aissue+label%3Astory+label%3A%3Aproduct+" target="_blank" rel="noreferrer">
+              <span className="peer text-red">Manage roadmap</span>
               <span className="pl-sm sm:opacity-0 hover:opacity-100 peer-hover:opacity-100 text-light-text-grey dark:text-dark-text-grey">See roadmap on GitHub</span>
             </a>
           </div>
