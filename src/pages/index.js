@@ -15,95 +15,132 @@ import me3Pixel from "../assets/images/me-3-pixel.jpg";
 import me4 from "../assets/images/me-4.jpg";
 import me4Pixel from "../assets/images/me-4-pixel.jpg";
 
+import me5 from "../assets/images/me-5.jpg";
+// import me5Pixel from "../assets/images/me-5-pixel.jpg";
+
+import me6 from "../assets/images/me-6.jpg";
+// import me6Pixel from "../assets/images/me-6-pixel.jpg";
+
+import me7 from "../assets/images/me-7.jpg";
+// import me7Pixel from "../assets/images/me-7-pixel.jpg";
+
+
 const IndexPage = () => {
 
   return (
     <Layout>
       <SEO title="Noah Talerman"/>
       <div className="col-start-2 col-span-7 md:col-start-3 md:col-span-5">
-        <div className="flex flex-col">
-          <h1 className="mb-md">Noah Talerman's site</h1>
+        <h1 className="mb-md">Noah Talerman's site</h1>
+      </div>
+      <div className="col-start-2 col-span-7 md:col-start-2 md:col-span-3">
+        <div className="flex flex-col sm:flex-row">
           <div>
-            <div className="flex flex-col sm:flex-row">
-              <div>
-                <img
-                  src={me1}
-                  style={
-                    {
-                      maxWidth: "200px",
-                      height: "200px",
-                      borderRadius: "4px",
-                      position: "absolute",
-                    }
+            <img
+              src={me1}
+              style={
+                {
+                  maxWidth: "200px",
+                  height: "200px",
+                  borderRadius: "4px",
+                  position: "absolute",
+                }
+              }
+              className="z-10 object-cover h-auto m-sm transition duration-0 hover:opacity-0"
+            />
+            <img
+              src={me1Pixel}
+              style={
+                {
+                  maxWidth: "200px",
+                  height: "200px",
+                  borderRadius: "4px",
+                  imageRendering: "pixelated",
+                }
+              }
+              className="object-cover h-auto m-sm filter grayscale"
+            />
+          </div>
+          <div>
+            <img
+              src={me2}
+              style={
+                {
+                  minWidth: "200px",
+                  height: "200px",
+                  borderRadius: "4px",
+                  position: "absolute",
+                }
+              }
+              className="z-10 object-cover h-auto m-sm transition duration-0 hover:opacity-0"
+            />
+            <img
+              src={me2Pixel}
+              style={
+                {
+                  minWidth: "200px",
+                  height: "200px",
+                  borderRadius: "4px",
+                  imageRendering: "pixelated",
+                }
+              }
+              className="object-cover h-auto m-sm filter grayscale"
+            />
+          </div>
+          <div>
+            <img
+              src={me5}
+              style={
+                {
+                  minWidth: "200px",
+                  height: "200px",
+                  borderRadius: "4px",
+                  position: "absolute",
+                }
+              }
+              className="z-10 object-cover h-auto m-sm transition duration-0 hover:opacity-0"
+            />
+            {/* <img
+              src={me2Pixel}
+              style={
+                {
+                  minWidth: "200px",
+                  height: "200px",
+                  borderRadius: "4px",
+                  imageRendering: "pixelated",
+                }
+              }
+              className="object-cover h-auto m-sm filter grayscale"
+            /> */}
+          </div>
+        </div>
+        <div>
+          <div className="flex flex-col sm:flex-row">
+            <div>
+              <img
+                src={me3}
+                style={
+                  {
+                    maxWidth: "200px",
+                    height: "200px",
+                    borderRadius: "4px",
+                    position: "absolute",
                   }
-                  className="z-10 object-cover h-auto m-sm transition duration-0 hover:opacity-0"
-                />
-                <img
-                  src={me1Pixel}
-                  style={
-                    {
-                      maxWidth: "200px",
-                      height: "200px",
-                      borderRadius: "4px",
-                      imageRendering: "pixelated",
-                    }
+                }
+                className="z-10 object-cover h-auto m-sm transition duration-0 hover:opacity-0"
+              />
+              <img
+                src={me3Pixel}
+                style={
+                  {
+                    maxWidth: "200px",
+                    height: "200px",
+                    borderRadius: "4px",
+                    imageRendering: "pixelated",
                   }
-                  className="object-cover h-auto m-sm filter grayscale"
-                />
-              </div>
-              <div>
-                <img
-                  src={me2}
-                  style={
-                    {
-                      minWidth: "200px",
-                      height: "200px",
-                      borderRadius: "4px",
-                      position: "absolute",
-                    }
-                  }
-                  className="z-10 object-cover h-auto m-sm transition duration-0 hover:opacity-0"
-                />
-                <img
-                  src={me2Pixel}
-                  style={
-                    {
-                      minWidth: "200px",
-                      height: "200px",
-                      borderRadius: "4px",
-                      imageRendering: "pixelated",
-                    }
-                  }
-                  className="object-cover h-auto m-sm filter grayscale"
-                />
-              </div>
-            </div>
-            <div className="flex flex-col sm:flex-row">
-              <div>
-                <img
-                  src={me3}
-                  style={
-                    {
-                      maxWidth: "200px",
-                      height: "200px",
-                      borderRadius: "4px",
-                      position: "absolute",
-                    }
-                  }
-                  className="z-10 object-cover h-auto m-sm transition duration-0 hover:opacity-0"
-                />
-                <img
-                  src={me3Pixel}
-                  style={
-                    {
-                      maxWidth: "200px",
-                      height: "200px",
-                      borderRadius: "4px",
-                      imageRendering: "pixelated",
-                    }
-                  }
-                  className="object-cover h-auto m-sm filter grayscale"
-                />
+                }
+                className="object-cover h-auto m-sm filter grayscale"
+              />
               </div>
               <div>
                 <img
@@ -131,10 +168,37 @@ const IndexPage = () => {
                   className="object-cover h-auto m-sm filter grayscale"
                 />
               </div>
+              <div>
+                <img
+                  src={me6}
+                  style={
+                    {
+                      minWidth: "200px",
+                      height: "200px",
+                      borderRadius: "4px",
+                      position: "absolute",
+                    }
+                  }
+                  className="z-10 object-cover h-auto m-sm transition duration-0 hover:opacity-0"
+                />
+                {/* <img
+                  src={me6Pixel}
+                  style={
+                    {
+                      minWidth: "200px",
+                      height: "200px",
+                      borderRadius: "4px",
+                      imageRendering: "pixelated",
+                    }
+                  }
+                  className="object-cover h-auto m-sm filter grayscale"
+                /> */}
             </div>
           </div>
         </div>
-        <h3 className="mt-lg">Work</h3>
+      </div>
+      <div className="col-start-2 col-span-7 md:col-start-3 md:col-span-5">
+      <h3 className="mt-lg">Work</h3>
         <div className="flex justify-between mt-md flex-col lg:flex-row">
           <a className="block" href="https://fleetdm.com" target="_blank" rel="noreferrer">
               <span className="peer text-red">Fleet</span>
