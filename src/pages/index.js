@@ -135,7 +135,7 @@ const IndexPage = () => {
           </div>
         </div>
         <h3 className="mt-lg">Work</h3>
-        <div className="flex justify-between mt-md flex-col lg:flex-row">
+        <div className="flex justify-between mt-sm flex-col lg:flex-row">
           <a className="block" href="https://fleetdm.com" target="_blank" rel="noreferrer">
               <span className="peer text-red">Fleet</span>
               <span className="pl-sm sm:opacity-0 hover:opacity-100 peer-hover:opacity-100 text-light-text-grey dark:text-dark-text-grey">See website</span>
@@ -145,11 +145,11 @@ const IndexPage = () => {
         <div className="mt-md">
           <div className="mt-sm">
             <a className="block" href="https://fleetdm.com" target="_blank" rel="noreferrer">
-                <span className="peer text-red">20+ customers</span>
+                <span className="peer text-red">30+ customers</span>
                 <span className="pl-sm sm:opacity-0 hover:opacity-100 peer-hover:opacity-100 text-light-text-grey dark:text-dark-text-grey">See testimonials on website</span>
             </a>
             <a className="block" href="https://osquery.slack.com/join/shared_invite/zt-1wkw5fzba-lWEyke60sjV6C4cdinFA1w#/shared-invite/email" target="_blank" rel="noreferrer">
-              <span className="peer text-red">1,100+ users</span>
+              <span className="peer text-red">1,300+ users</span>
               <span className="pl-sm sm:opacity-0 hover:opacity-100 peer-hover:opacity-100 text-light-text-grey dark:text-dark-text-grey">See community on Slack</span>
             </a>
           </div>
