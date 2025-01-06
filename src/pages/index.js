@@ -146,11 +146,11 @@ const IndexPage = () => {
           <div className="mt-sm">
             <a className="block" href="https://fleetdm.com/testimonials" target="_blank" rel="noreferrer">
                 <span className="peer text-red">30+ customers</span>
-                <span className="pl-sm sm:opacity-0 hover:opacity-100 peer-hover:opacity-100 text-light-text-grey dark:text-dark-text-grey">See testimonials →</span>
+                <span className="pl-sm sm:opacity-0 hover:opacity-100 peer-hover:opacity-100 text-light-text-grey dark:text-dark-text-grey">See testimonials on website →</span>
             </a>
             <a className="block" href="https://chat.osquery.io/c/fleet" target="_blank" rel="noreferrer">
               <span className="peer text-red">1,300+ users</span>
-              <span className="pl-sm sm:opacity-0 hover:opacity-100 peer-hover:opacity-100 text-light-text-grey dark:text-dark-text-grey">See Slack community →</span>
+              <span className="pl-sm sm:opacity-0 hover:opacity-100 peer-hover:opacity-100 text-light-text-grey dark:text-dark-text-grey">See community on Linen →</span>
             </a>
           </div>
         </div>
