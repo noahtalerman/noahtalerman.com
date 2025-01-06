@@ -138,19 +138,19 @@ const IndexPage = () => {
         <div className="flex justify-between mt-sm flex-col lg:flex-row">
           <a className="block" href="https://fleetdm.com" target="_blank" rel="noreferrer">
               <span className="peer text-red">Fleet</span>
-              <span className="pl-sm sm:opacity-0 hover:opacity-100 peer-hover:opacity-100 text-light-text-grey dark:text-dark-text-grey">See website</span>
+              <span className="pl-sm sm:opacity-0 hover:opacity-100 peer-hover:opacity-100 text-light-text-grey dark:text-dark-text-grey">See website →</span>
           </a>
         </div>
         <p className="mt-md">Team accomplishments</p>
         <div className="mt-md">
           <div className="mt-sm">
-            <a className="block" href="https://fleetdm.com" target="_blank" rel="noreferrer">
+            <a className="block" href="https://fleetdm.com/testimonials" target="_blank" rel="noreferrer">
                 <span className="peer text-red">30+ customers</span>
-                <span className="pl-sm sm:opacity-0 hover:opacity-100 peer-hover:opacity-100 text-light-text-grey dark:text-dark-text-grey">See testimonials on website</span>
+                <span className="pl-sm sm:opacity-0 hover:opacity-100 peer-hover:opacity-100 text-light-text-grey dark:text-dark-text-grey">See testimonials →</span>
             </a>
-            <a className="block" href="https://osquery.slack.com/join/shared_invite/zt-1wkw5fzba-lWEyke60sjV6C4cdinFA1w#/shared-invite/email" target="_blank" rel="noreferrer">
+            <a className="block" href="https://chat.osquery.io/c/fleet" target="_blank" rel="noreferrer">
               <span className="peer text-red">1,300+ users</span>
-              <span className="pl-sm sm:opacity-0 hover:opacity-100 peer-hover:opacity-100 text-light-text-grey dark:text-dark-text-grey">See community on Slack</span>
+              <span className="pl-sm sm:opacity-0 hover:opacity-100 peer-hover:opacity-100 text-light-text-grey dark:text-dark-text-grey">See Slack community →</span>
             </a>
           </div>
         </div>
@@ -159,11 +159,11 @@ const IndexPage = () => {
           <div className="mt-sm">
             <a className="block" href="https://www.figma.com/file/hdALBDsrti77QuDNSzLdkx/%F0%9F%9A%A7-Fleet-EE-(dev-ready%2C-scratchpad)?node-id=2750-67203" target="_blank" rel="noreferrer">
               <span className="peer text-red">Product design</span>
-              <span className="pl-sm sm:opacity-0 hover:opacity-100 peer-hover:opacity-100 hover:opacity-100 text-light-text-grey dark:text-dark-text-grey">See designs on Figma</span>
+              <span className="pl-sm sm:opacity-0 hover:opacity-100 peer-hover:opacity-100 hover:opacity-100 text-light-text-grey dark:text-dark-text-grey">See designs on Figma →</span>
             </a>
             <a className="block" href="https://github.com/fleetdm/fleet/issues?q=is%3Aopen+is%3Aissue+label%3Astory+label%3A%3Aproduct+" target="_blank" rel="noreferrer">
               <span className="peer text-red">Roadmap</span>
-              <span className="pl-sm sm:opacity-0 hover:opacity-100 peer-hover:opacity-100 text-light-text-grey dark:text-dark-text-grey">See roadmap on GitHub</span>
+              <span className="pl-sm sm:opacity-0 hover:opacity-100 peer-hover:opacity-100 text-light-text-grey dark:text-dark-text-grey">See roadmap on GitHub →</span>
             </a>
           </div>
         </div>
