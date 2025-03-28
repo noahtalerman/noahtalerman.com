@@ -15,6 +15,8 @@ import me3Pixel from "../assets/images/me-3-pixel.jpg";
 import me4 from "../assets/images/me-4.jpg";
 import me4Pixel from "../assets/images/me-4-pixel.jpg";
 
+import playIcon from "../assets/images/play-icon.png";
+
 const IndexPage = () => {
 
   return (
@@ -25,7 +27,7 @@ const IndexPage = () => {
           <h1 className="mb-md">Noah Talerman's site</h1>
           <div>
             <div className="flex flex-col sm:flex-row">
-              <div>
+              <a href="#playlist" className="m-sm">
                 <img
                   src={me1}
                   style={
@@ -36,10 +38,9 @@ const IndexPage = () => {
                       position: "absolute",
                     }
                   }
-                  className="z-10 object-cover h-auto m-sm transition duration-0 hover:opacity-0"
+                  className="z-20 object-cover h-auto transition duration-0 hover:opacity-0"
                 />
-                <img
-                  src={me1Pixel}
+                <div 
                   style={
                     {
                       maxWidth: "200px",
@@ -48,10 +49,34 @@ const IndexPage = () => {
                       imageRendering: "pixelated",
                     }
                   }
-                  className="object-cover h-auto m-sm filter grayscale"
-                />
-              </div>
-              <div>
+                  className="flex flex-col flex justify-center items-center h-auto"
+                >
+                  <img
+                    src={me1Pixel}
+                    style={
+                      {
+                        maxWidth: "200px",
+                        height: "200px",
+                        borderRadius: "4px",
+                        imageRendering: "pixelated",
+                      }
+                    }
+                    className="filter grayscale object-cover"
+                  />
+                  <img
+                    src={playIcon}
+                    style={
+                      {
+                        maxWidth: "150px",
+                        height: "150px",
+                        position: "absolute",
+                      }
+                    }
+                    className="z-10 object-cover filter"
+                  />
+                </div>
+              </a>
+              <a href="#playlist" className="m-sm">
                 <img
                   src={me2}
                   style={
@@ -62,24 +87,47 @@ const IndexPage = () => {
                       position: "absolute",
                     }
                   }
-                  className="z-10 object-cover h-auto m-sm transition duration-0 hover:opacity-0"
+                  className="z-20 object-cover h-auto transition duration-0 hover:opacity-0"
                 />
-                <img
-                  src={me2Pixel}
+                <div 
                   style={
                     {
-                      minWidth: "200px",
+                      maxWidth: "200px",
                       height: "200px",
                       borderRadius: "4px",
                       imageRendering: "pixelated",
                     }
                   }
-                  className="object-cover h-auto m-sm filter grayscale"
-                />
-              </div>
+                  className="flex flex-col justify-center items-center h-auto"
+                >
+                  <img
+                    src={me2Pixel}
+                    style={
+                      {
+                        minWidth: "200px",
+                        height: "200px",
+                        borderRadius: "4px",
+                        imageRendering: "pixelated",
+                      }
+                    }
+                    className="filter grayscale object-cover"
+                  />
+                  <img
+                    src={playIcon}
+                    style={
+                      {
+                        maxWidth: "150px",
+                        height: "150px",
+                        position: "absolute",
+                      }
+                    }
+                    className="z-10 flex object-cover filter"
+                  />
+                </div>
+              </a>
             </div>
             <div className="flex flex-col sm:flex-row">
-              <div>
+              <a href="#playlist" className="m-sm">
                 <img
                   src={me3}
                   style={
@@ -90,10 +138,9 @@ const IndexPage = () => {
                       position: "absolute",
                     }
                   }
-                  className="z-10 object-cover h-auto m-sm transition duration-0 hover:opacity-0"
+                  className="z-20 object-cover h-auto transition duration-0 hover:opacity-0"
                 />
-                <img
-                  src={me3Pixel}
+                <div
                   style={
                     {
                       maxWidth: "200px",
@@ -102,10 +149,34 @@ const IndexPage = () => {
                       imageRendering: "pixelated",
                     }
                   }
-                  className="object-cover h-auto m-sm filter grayscale"
-                />
-              </div>
-              <div>
+                  className="flex flex-col justify-center items-center object-cover h-auto"
+                >
+                  <img
+                    src={me3Pixel}
+                    style={
+                      {
+                        maxWidth: "200px",
+                        height: "200px",
+                        borderRadius: "4px",
+                        imageRendering: "pixelated",
+                      }
+                    }
+                    className="filter grayscale object-cover"
+                  />
+                  <img
+                    src={playIcon}
+                    style={
+                      {
+                        maxWidth: "150px",
+                        height: "150px",
+                        position: "absolute",
+                      }
+                    }
+                    className="z-10 flex object-cover filter"
+                  />
+                </div>
+              </a>
+              <a href="#playlist" className="m-sm">
                 <img
                   src={me4}
                   style={
@@ -116,21 +187,44 @@ const IndexPage = () => {
                       position: "absolute",
                     }
                   }
-                  className="z-10 object-cover h-auto m-sm transition duration-0 hover:opacity-0"
+                  className="z-20 object-cover h-auto transition duration-0 hover:opacity-0"
                 />
-                <img
-                  src={me4Pixel}
+                <div
                   style={
                     {
-                      minWidth: "200px",
+                      maxWidth: "200px",
                       height: "200px",
                       borderRadius: "4px",
                       imageRendering: "pixelated",
                     }
                   }
-                  className="object-cover h-auto m-sm filter grayscale"
-                />
-              </div>
+                  className="flex flex-col justify-center items-center object-cover h-auto"
+                >
+                  <img
+                    src={me4Pixel}
+                    style={
+                      {
+                        minWidth: "200px",
+                        height: "200px",
+                        borderRadius: "4px",
+                        imageRendering: "pixelated",
+                      }
+                    }
+                    className="filter grayscale object-cover"
+                  />
+                  <img
+                    src={playIcon}
+                    style={
+                      {
+                        maxWidth: "150px",
+                        height: "150px",
+                        position: "absolute",
+                      }
+                    }
+                    className="z-10 flex object-cover filter"
+                  />
+                </div>
+              </a>
             </div>
           </div>
         </div>
@@ -166,6 +260,23 @@ const IndexPage = () => {
               <span className="pl-sm sm:opacity-0 hover:opacity-100 peer-hover:opacity-100 text-light-text-grey dark:text-dark-text-grey">See roadmap on GitHub →</span>
             </a>
           </div>
+        </div>
+        <h3 id="playlist" className="mt-lg">Playlist</h3>
+        <div className="mt-md">
+          <iframe 
+            style={
+              {
+                borderRadius: "12px",
+                width: "100%",
+                height: "352px",
+                loading: "lazy",
+              }
+            } 
+            src="https://open.spotify.com/embed/playlist/37i9dQZF1FbGBRaXW6UvQt?utm_source=generator&theme=0"
+            width="100%" 
+            height="152"
+            frameBorder="0">
+          </iframe>
         </div>
       </div>
     </Layout>
