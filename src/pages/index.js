@@ -239,7 +239,7 @@ const IndexPage = () => {
         <div className="mt-md">
           <div className="mt-sm">
             <a className="block" href="https://fleetdm.com/testimonials" target="_blank" rel="noreferrer">
-                <span className="peer text-red">30+ customers</span>
+                <span className="peer text-red">80+ customers</span>
                 <span className="pl-sm sm:opacity-0 hover:opacity-100 peer-hover:opacity-100 text-light-text-grey dark:text-dark-text-grey">See testimonials on website →</span>
             </a>
             <a className="block" href="https://chat.osquery.io/c/fleet" target="_blank" rel="noreferrer">
@@ -251,11 +251,11 @@ const IndexPage = () => {
         <p className="mt-md">Responsibilities</p>
         <div className="mt-md">
           <div className="mt-sm">
-            <a className="block" href="https://www.figma.com/file/hdALBDsrti77QuDNSzLdkx/%F0%9F%9A%A7-Fleet-EE-(dev-ready%2C-scratchpad)?node-id=2750-67203" target="_blank" rel="noreferrer">
+            <a className="block" href="https://www.figma.com/design/j2M1heOh8eZD6LcUJks6HE/-9956-Add-multiple-Apple-Business-Manager-and-Volume-Purchasing-Program-connections?node-id=2-130&t=IRn57raPoE0gMMrH-1" target="_blank" rel="noreferrer">
               <span className="peer text-red">Product design</span>
               <span className="pl-sm sm:opacity-0 hover:opacity-100 peer-hover:opacity-100 hover:opacity-100 text-light-text-grey dark:text-dark-text-grey">See designs on Figma →</span>
             </a>
-            <a className="block" href="https://github.com/fleetdm/fleet/issues?q=is%3Aopen+is%3Aissue+label%3Astory+label%3A%3Aproduct+" target="_blank" rel="noreferrer">
+            <a className="block" href="https://github.com/orgs/fleetdm/projects/87" target="_blank" rel="noreferrer">
               <span className="peer text-red">Roadmap</span>
               <span className="pl-sm sm:opacity-0 hover:opacity-100 peer-hover:opacity-100 text-light-text-grey dark:text-dark-text-grey">See roadmap on GitHub →</span>
             </a>
@@ -272,14 +272,14 @@ const IndexPage = () => {
                 loading: "lazy",
               }
             } 
-            src="https://open.spotify.com/embed/playlist/37i9dQZF1FbGBRaXW6UvQt?utm_source=generator&theme=0"
+            src="https://open.spotify.com/embed/album/1rSbjr5U9J9rQ9sE7RxHFl?utm_source=generator&theme=0"
             width="100%" 
             height="152"
             frameBorder="0">
           </iframe>
         </div>
       </div>
-    </Layout>
+    </Layout> 
   );
 }
 
